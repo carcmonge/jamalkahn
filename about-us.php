@@ -148,25 +148,25 @@
                     </p>
                 </div>
                 <div class="column is-1 philosopy__line-content">
-                    <img class="philosopy__line-v" src="dist/img/line-v.svg" alt="">
+                    <img class="philosopy__line-v" src="dist/img/line-v.svg" alt=""> 
                 </div>
                 <div class="column is-6">
                     <div class="philosopy__content-img">
                         <img src="dist/img/philosopy-1.jpg" alt="" class="philosopy__img">
-                        <img class="philosopy__line-h" src="dist/img/line-h.svg" alt="">
+                        <span class="philosopy__line-h"></span>
                     </div>
                 </div>
             </div>
             <div class="columns is-gapless">
-                <div class="column is-6 philosopy__content-img">
+                <div class="column is-6 philosopy__content-img philosopy__content-img--right">
                     <img src="dist/img/philosopy-2.jpg" alt="" class="philosopy__img">
-                    <img class="philosopy__line-h" src="dist/img/line-h.svg" alt="">                
+                    <span class="philosopy__line-h--right"></span>          
                 </div>
                 <div class="column is-1 philosopy__line-content">
                     <img class="philosopy__line-v" src="dist/img/line-v.svg" alt="">
                 </div>                
                 <div class="column is-4 philosopy--text-left">
-                    <h2 class="philosopy__element">Our mission</h2>
+                    <h2 class="philosopy__element">Vision of the company</h2>
                     <p class="philosopy__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ipsum dolor aliqua.
                     </p>
@@ -174,7 +174,7 @@
             </div>
             <div class="columns is-gapless philosopy__rowreverse">
                 <div class="column is-4 philosopy--text-right">
-                    <h2 class="philosopy__element">Our mission</h2>
+                    <h2 class="philosopy__element">Main Values</h2>
                     <p class="philosopy__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ipsum dolor aliqua.
                     </p>
@@ -184,8 +184,8 @@
                 </div>
                 <div class="column is-6">
                     <div class="philosopy__content-img">
-                        <img src="dist/img/philosopy-1.jpg" alt="" class="philosopy__img">
-                        <img class="philosopy__line-h" src="dist/img/line-h.svg" alt="">
+                        <img src="dist/img/philosopy-3.jpg" alt="" class="philosopy__img">
+                        <span class="philosopy__line-h"></span>
                     </div>
                 </div>
             </div>
