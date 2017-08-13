@@ -184,9 +184,33 @@
         &__element {
             font-size: 19px;
         }
+        &__text {
+            font-size: 13px;
+        }
         &--text-right{
             text-align: right;
+            padding-left: 100px !important;
         }
+        &--text-left{
+            padding-right: 100px !important;
+        }
+        &__content-img {
+            position: relative;
+            text-align: left;
+            margin-left: 50px;
+        }
+        &__line-v {
+            display: none;
+        }
+        &__line-h {
+            display: block;
+            position: absolute;
+            height: 1px;
+            top: 13px;
+            left: -65px;
+        }
+
+
 
     }
 

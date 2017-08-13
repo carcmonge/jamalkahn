@@ -624,15 +624,28 @@ body {
   &__content-header {
     text-align: center;
   }
+
   &__content-img {
     text-align: center;
   }
+
+  &__line-content {
+    z-index: 1000;
+  }
+
   &__rowreverse {
     flex-direction: column-reverse;
     display: flex;
   }
-  &__line {
+
+  &__line-v {
     width: 100%;
+    height: 80px;
+    margin-top: -30px;
+  }
+  
+  &__line-h {
+    display: none;
   }
 }
 

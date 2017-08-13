@@ -147,19 +147,25 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ipsum dolor aliqua.
                     </p>
                 </div>
-                <div class="column is-2">
-                    <img class="philosopy__line" src="dist/img/line.svg" alt="">
+                <div class="column is-1 philosopy__line-content">
+                    <img class="philosopy__line-v" src="dist/img/line-v.svg" alt="">
                 </div>
-                <div class="column is-5 philosopy__content-img">
-                    <img src="dist/img/philosopy-1.jpg" alt="" class="philosopy__img">
+                <div class="column is-6">
+                    <div class="philosopy__content-img">
+                        <img src="dist/img/philosopy-1.jpg" alt="" class="philosopy__img">
+                        <img class="philosopy__line-h" src="dist/img/line-h.svg" alt="">
+                    </div>
                 </div>
             </div>
             <div class="columns is-gapless">
-                <div class="column is-5 philosopy__content-img">
+                <div class="column is-6 philosopy__content-img">
                     <img src="dist/img/philosopy-2.jpg" alt="" class="philosopy__img">
+                    <img class="philosopy__line-h" src="dist/img/line-h.svg" alt="">                
                 </div>
-                <div class="column is-2"></div>
-                <div class="column is-4">
+                <div class="column is-1 philosopy__line-content">
+                    <img class="philosopy__line-v" src="dist/img/line-v.svg" alt="">
+                </div>                
+                <div class="column is-4 philosopy--text-left">
                     <h2 class="philosopy__element">Our mission</h2>
                     <p class="philosopy__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ipsum dolor aliqua.
@@ -173,9 +179,14 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ipsum dolor aliqua.
                     </p>
                 </div>
-                <div class="column is-2"></div>
-                <div class="column is-5 philosopy__content-img">
-                    <img src="dist/img/philosopy-3.jpg" alt="" class="philosopy__img">
+                <div class="column is-1 philosopy__line-content">
+                    <img class="philosopy__line-v" src="dist/img/line-v.svg" alt="">
+                </div>
+                <div class="column is-6">
+                    <div class="philosopy__content-img">
+                        <img src="dist/img/philosopy-1.jpg" alt="" class="philosopy__img">
+                        <img class="philosopy__line-h" src="dist/img/line-h.svg" alt="">
+                    </div>
                 </div>
             </div>
 
