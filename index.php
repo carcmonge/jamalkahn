@@ -33,11 +33,17 @@
           <span></span>
         </span>
 
-        <div class="nav-right nav-menu">
+        <div class="nav-right nav-menu right-menu">
+          <div class="menu__logo is-hidden-tablet">
+            <img src="dist/img/logo.svg" alt="logo">
+          </div>
           <a class="nav-item is-tab is-hidden-tablet">Our Services</a>
           <a class="nav-item is-tab is-hidden-tablet">Jamal's Story</a>
           <a class="nav-item is-tab is-hidden-tablet">Financial Literacy</a>
           <a class="nav-item is-tab header__button-right">Contact Us</a>
+          <div class="is-hidden-tablet">
+            <a href="#" class="button">Contact Us</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -77,18 +83,60 @@
       <div class="container">
         <h2 class="attibutes__title">Special attibutes</h2>
         <div class="attibutes__options-bar">
-          <a href="#" class="attibutes__options-bar__option attibutes__options-bar__option--active">Prosper Canada</a>
-          <a href="#" class="attibutes__options-bar__option">Collaborations</a>
-          <a href="#" class="attibutes__options-bar__option">Non-profit boards</a>
+          <a href="#" id="prosper-canada" class="attibutes__options-bar__option attibutes__options-bar__option--active">Prosper Canada</a>
+          <a href="#" id="collaborations"  class="attibutes__options-bar__option">Collaborations</a>
+          <a href="#" id="non-profit-boards" class="attibutes__options-bar__option">Non-profit boards</a>
         </div>
         <select class="select-topion attibutes__options" id="attibutes__title">
           <option value="prosper-canada">Prosper Canada</option>
           <option value="collaborations">Collaborations</option>
           <option value="non-profit-boards">Non-profit boards</option>
         </select>
-        <div class="columns is-gapless attibutes__option">
+        <div id="prosper-canada-content" class="columns is-gapless attibutes__option">
           <div class="column is-7 attibutes__option__content">
             <h2 class="attibutes__option__title">Involvement with Prosper Canada</h2>
+            <p class="attibutes__option__text">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum quasi architecto beatae.
+            </p>
+
+            <p class="attibutes__option__text">
+              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,  eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            </p>
+          </div>
+          <div class="column is-5 attibutes__option__content--right">
+            <h2 class="attibutes__option__title--white">Set your goals with us</h2>
+            <p class="attibutes__option__text--white">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <div class="attibutes__option__content-button">
+              <a href="" class="attibutes__option__button">Our Services</a>
+            </div>
+          </div>
+        </div>
+        <div id="collaborations-content" class="columns is-gapless attibutes__option">
+          <div class="column is-7 attibutes__option__content">
+            <h2 class="attibutes__option__title">Involvement with Collaborations</h2>
+            <p class="attibutes__option__text">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum quasi architecto beatae.
+            </p>
+
+            <p class="attibutes__option__text">
+              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,  eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            </p>
+          </div>
+          <div class="column is-5 attibutes__option__content--right">
+            <h2 class="attibutes__option__title--white">Set your goals with us</h2>
+            <p class="attibutes__option__text--white">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <div class="attibutes__option__content-button">
+              <a href="" class="attibutes__option__button">Our Services</a>
+            </div>
+          </div>
+        </div>
+        <div id="non-profit-boards-content" class="columns is-gapless attibutes__option">
+          <div class="column is-7 attibutes__option__content">
+            <h2 class="attibutes__option__title">Involvement with Non-profit boards</h2>
             <p class="attibutes__option__text">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum quasi architecto beatae.
             </p>

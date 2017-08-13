@@ -153,6 +153,13 @@
         &__img {
             width: 400px;
         }
+
+        &__title {
+            font-size: 32px;
+        }
+        &__container {
+            padding: 50px 50px 50px 5px !important;
+        }
     }
     
     .jamal {
@@ -208,7 +215,13 @@
             }
         }
     }
-
+    .right-menu {
+        height: auto;
+        width: auto;
+    }
+    .container {
+        padding: 0 0;
+    }
 }
 
 @media ( min-width: 769px ) {
@@ -406,6 +419,12 @@
             padding: 0 2em 0 0 !important;
         }
 
+    }
+
+    .books {
+        &__title {
+            font-size: 40px;
+        }
     }
 
     .adapt {

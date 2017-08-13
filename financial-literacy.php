@@ -68,6 +68,7 @@
                 </figure>
             </div>
             <div class="column is-6">
+              <div class="books__container">
                 <h2 class="books__title">The Unifying Moment Lorem Ipsum</h2>
                 <span class="books__pretitle">price: $125.00 usd</span>
                 <p class="books__text">
@@ -83,6 +84,7 @@
                     <a class="books__button" href="#">BUY</a>
                   </div>
                 </div>
+              </div>
             </div>
         </div>
         <hr class="books_separate">
@@ -93,6 +95,7 @@
                 </figure>
             </div>
             <div class="column is-6">
+              <div class="books__container">
                 <h2 class="books__title">The Atlantic Civilization 18th Century Origins</h2>
                 <span class="books__pretitle">price: $200.00 usd</span>
                 <p class="books__text">
@@ -108,6 +111,7 @@
                     <a class="books__button" href="#">BUY</a>
                   </div>
                 </div>
+              </div>
             </div>
         </div>
       </div>
