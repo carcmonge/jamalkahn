@@ -1,0 +1,49 @@
+.dk-selected {
+
+    background-color: $second;
+    border-radius: 5px;
+    color: $black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    border: 1px solid #078936;
+}
+
+.dk-selected:before {
+    border-top-color: #000000;
+    margin: -0.125em 5.5em 0 0;
+}
+
+.dk-option {
+    background-color: $white;
+    color: $black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    border: 1px solid #078936;
+}
+
+.dk-option-selected {
+    background-color: $second;
+    color: $black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    border: 1px solid #078936;
+}
+.dk-select-open-up .dk-select-options, .dk-select-open-down .dk-select-options, .dk-select-multi:focus .dk-select-options {
+    border: 1px solid #078936;
+}
+.dk-select-options {
+    padding: 0;
+}

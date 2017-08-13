@@ -1,0 +1,15 @@
+{
+  "css": [
+    "node_modules/bulma/css/bulma.css",
+    "bower_components/dropkick/lib/css/dropkick.css",
+    "bower_components/slick-carousel/slick/slick.css",
+    "bower_components/components-font-awesome/css/font-awesome.css",
+    "src/sass/**/*.scss"
+  ],
+  "js": [
+    "bower_components/jquery/dist/jquery.js",
+    "bower_components/dropkick/lib/dropkick.js",
+    "bower_components/slick-carousel/slick/slick.js",
+    "src/js/**/*.js"
+  ]
+}

@@ -1,0 +1,477 @@
+@media ( min-width: 767px ) {
+    .nav-menu.nav-right {
+        position: initial;
+    }
+    a.nav-item:not(.button) {
+        font-size: 0.8em;
+    }
+    .header {
+        &__button-right {
+            background-color: $second;
+            color: #FFF !important;
+        }
+    }
+    .banner {
+
+        padding: 100px 75px;
+
+        &__title {
+            font-size: 45px;
+        }
+
+        &__description {
+            font-size: 0.8em;
+            padding: 5px;
+            display: block;
+            width: 60%;
+        }
+
+    }
+
+    .value {
+        padding: 100px 75px;
+
+        &__title {
+            font-size: 32px;
+        }
+
+        &__content {
+            &__text {
+                margin-bottom: 5em;
+            }
+
+            &__button {
+
+                padding: 2em 4em;
+            }
+
+        }
+    }
+
+    .attibutes {
+        &__options {
+            display: none;
+        }
+
+        &__options-bar {
+            display: block;
+            margin-bottom: 4em;
+            &__option {
+
+                background-color: $first;
+                border-radius: 5px;
+                color: $black;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 700;
+                font-size: 11px;
+                text-decoration: underline;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                text-align: center;
+                border: 1px solid #078936;
+                padding: 2em 25px;
+
+                &--active {
+                    background-color: $second;
+                }
+            }
+        }
+    }
+
+    .testimonials {
+        padding-top: 100px !important;
+        padding-bottom: 50px !important;
+        &__header {
+            padding: 0 1em !important;
+        }
+        &__title {
+            font-size: 45px;
+            
+        }
+        &__slides {
+            margin: 0 6em;
+        }
+        &__slide {
+            &__title {
+                font-weight: 600;
+            }
+            
+        }
+    }
+
+    .latest {
+        &__title {
+            font-size: 32px;
+        }
+        &__slide {
+            margin: 0 1em !important;
+        }
+    }
+
+    .benefit {
+
+        margin-top: 4em;
+
+        &__title {
+        font-size: 45px;
+        }
+
+        &__header {
+            padding: 0 2em 0 0 !important;
+        }
+
+    }
+
+    .adapt {
+        &__title {
+            font-size: 45px;
+            margin-bottom: 1em;
+            &--small {
+                font-size: 32px;
+            }
+        }
+        &__content {
+            width: 100%;
+            display: inline-block;
+            padding: 3em 2em !important;
+            margin: 0 !important;
+
+            &__title {
+                font-size: 19px;
+            }
+
+            &__button {
+                width: auto;
+                &-container {
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    .books {
+        &__img {
+            width: 400px;
+        }
+    }
+    
+    .jamal {
+        &__img {
+            text-align: center;
+            width: 100%;
+        }
+        &__content-text {
+            padding: 25px;
+        }
+    }
+
+    .philosopy {
+    
+        &__rowreverse {
+            flex-direction: row;
+        }
+        &__title {
+            font-size: 32px;
+        }
+        
+        &__element {
+            font-size: 19px;
+        }
+        &--text-right{
+            text-align: right;
+        }
+
+    }
+
+    .contact {
+        &__container{
+        }
+        &__map{
+            height: 100vh;
+            display: block !important;
+            position: relative;
+        }
+    }
+
+    .social {
+        &__title {
+            &--top{
+                margin-top: 0;
+            }
+        }
+        &__container{
+            padding: 0 20px !important;
+        }
+        &__icons {
+            a {
+                margin: 0px;
+            }
+        }
+    }
+
+}
+
+@media ( min-width: 769px ) {
+
+    .testimonials {
+        padding: 3em 1em;
+        &__navigation {
+            display: none;
+            margin-top: 3em;
+            &--desktop {
+            display: block;
+            }
+        }
+
+    }
+ 
+}
+
+@media ( min-width: 1200px ) {
+    .nav-menu.nav-right {
+        position: initial;
+    }
+    a.nav-item:not(.button) {
+        font-size: 0.8em;
+        font-weight: bold;
+        padding-right: 0;
+    }
+    .nav-left, .nav-right {
+            flex-basis: initial;
+    }
+
+    a.nav-item:not(.button) {
+        font-size: 1em;
+        font-weight: bold;
+        padding-right: 0;
+    }
+
+    .container {
+        padding: 0 0;
+    }
+
+    .banner {
+
+        padding: 200px 75px;
+
+        &__title {
+            font-size: 60px;
+        }
+
+        &__description {
+            font-size: 14px;
+            
+        }
+
+    }
+
+    .value {
+        &__title {
+            font-size: 40px;
+            padding: 0 150px;
+        }
+
+        &__content {
+
+            &__text {
+                padding: 0 250px;
+                margin-bottom: 5em;
+            }
+
+            &__button {
+
+                padding: 2em 4em;
+            }
+
+        }
+    }
+
+    .attibutes {
+        padding: 75px 75px;
+        &__title {
+            font-size: 60px;
+        }
+        &__options {
+            display: none;
+        }
+        &__option {
+            &__title {
+                margin-top: 3em;
+                font-size: 20px;
+            }
+
+            &__content {
+                padding: 0 100px 0 0 !important;
+
+            }
+        }
+
+        &__option{
+            &__title {
+
+                &--white {
+                    color: $white;
+                    font-family: 'Amiri', serif;
+                    font-weight: 400;
+                    font-size: 40px;
+                    margin-bottom: 0.8em;
+                    line-height: 1;
+                }
+                
+
+            }
+            &__content {
+
+                &--right {
+                    text-align: left;
+                    padding: 5em 4em !important;
+                }
+
+            }
+        }
+
+
+
+        &__options-bar {
+            display: block;
+            margin-bottom: 4em;
+            &__option {
+
+                background-color: $first;
+                border-radius: 5px;
+                color: $black;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 700;
+                font-size: 11px;
+                text-decoration: underline;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                text-align: center;
+                border: 1px solid #078936;
+                padding: 2em 25px;
+
+                &--active {
+                    background-color: $second;
+                }
+            }
+        }
+    }
+
+    .testimonials {
+        padding-top: 100px !important;
+        padding-bottom: 50px !important;
+        text-align: left;
+        &__header {
+            padding: 0 1em 0 4em !important
+        }
+        &__title {
+            font-size: 60px;
+            
+        }
+        &__slides {
+            margin: 0 6em;
+        }
+        &__slide {
+            margin-left: 1em;
+            &__title {
+                font-weight: 600;
+            }
+            
+        }
+    }
+
+    .latest {
+        &__title {
+            font-size: 32px;
+        }
+        &__slide {
+            margin: 0 1em !important;
+        }
+    }
+    
+    .benefit {
+
+        margin-top: 4em;
+        padding: 0 5em;
+
+        &__title {
+        font-size: 60px;
+        }
+
+        &__text {
+            width: 80%;
+        }
+
+        &__header {
+            padding: 0 2em 0 0 !important;
+        }
+
+    }
+
+    .adapt {
+        padding:100px 100px;
+        
+        &__title {
+            font-size: 60px;
+            margin-bottom: 0.7em;
+        }
+        &__content {
+            width: 100%;
+            display: inline-block;
+            padding: 6em 4em 3em 4em !important;
+            margin: 0 !important;
+
+            &__title {
+                font-size: 20px;
+            }
+
+            &__text {
+                margin-bottom: 2em;
+            }
+
+
+            &__button {
+                width: 50%;
+                &-container {
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    .jamal {
+        &__title {
+            font-size: 60px;
+        }
+        &__text {
+            font-size: 15px;
+            padding-right: 100px;
+        }
+    }
+
+    .philosopy {
+    
+        &__title {
+            font-size: 40px;
+        }
+        
+        &__element {
+            font-size: 20px;
+        }
+
+
+    }
+
+    &__contact {
+
+    }
+
+    .social {
+
+        &__icons {
+            a {
+                margin: 5px;
+            }
+        }
+    }
+}

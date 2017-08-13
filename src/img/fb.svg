@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact" transform="translate(-16.000000, -741.000000)">
+            <g id="Cont-001">
+                <g id="02" transform="translate(15.000000, 441.000000)">
+                    <g id="Get-social" transform="translate(0.000000, 250.000000)">
+                        <g id="Icons" transform="translate(1.000000, 50.000000)">
+                            <g id="Fb">
+                                <circle id="Oval-2" fill="#414040" cx="20" cy="20" r="20"></circle>
+                                <text id="" font-family="FontAwesome" font-size="15" font-weight="normal" letter-spacing="3.409091" fill="#FFFFFF">
+                                    <tspan x="14.6764069" y="26"></tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

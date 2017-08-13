@@ -1,0 +1,22 @@
+{
+  "name": "excel-2017-mujeres",
+  "description": "Excel 2017 Mujeres",
+  "main": "gulpfile.js",
+  "authors": [
+    "Carlos Monge"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "slick-carousel": "^1.7.0",
+    "dropkick": "^2.1.9",
+    "components-font-awesome": "^4.7.0"
+  }
+}
