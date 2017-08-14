@@ -1,6 +1,6 @@
 {
   "css": [
-    "node_modules/bulma/css/bulma.css",
+    "bower_components/bulma/css/bulma.css",
     "bower_components/dropkick/lib/css/dropkick.css",
     "bower_components/slick-carousel/slick/slick.css",
     "bower_components/components-font-awesome/css/font-awesome.css",
