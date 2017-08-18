@@ -104,67 +104,65 @@ jQuery(document).ready(function ($) {
     mobile: true
   });
 
+  $('.attibutes__options-bar').children('a').each(function () {
+    console.log($(this).attr('id'));
+    // hasClass
+  });
+  
   $( "#attibutes__title" ).change(function() {
-    var option = $( "#attibutes__title" ).val();
 
-    $("#prosper-canada-content").hide();
-    $("#collaborations-content").hide();
-    $("#non-profit-boards-content").hide();
+    $('.attibutes__options-bar').children('a').each(function () {
 
-    $("#"+option+"-content").show();
+      var idElement   = $(this).attr('id');
+      var idSelect    = $( "#attibutes__title" ).val();
 
-  });
+      $("#" + (idElement) + "-content").hide();
 
-  $( "#prosper-canada" ).click(function(){
-    $("#prosper-canada").addClass("attibutes__options-bar__option--active");
-    $("#collaborations").removeClass("attibutes__options-bar__option--active");
-    $("#non-profit-boards").removeClass("attibutes__options-bar__option--active");
+      if(idElement === idSelect  ){
+        $("#" + (idElement) + "-content").show();
+        $("#" + idElement ).addClass("attibutes__options-bar__option--active");
+        
+      }
 
-    $("#prosper-canada-content").show();
-    $("#collaborations-content").hide();
-    $("#non-profit-boards-content").hide();
-
-    $("#attibutes__title").val("prosper-canada");
-
-    return false;
-
-  });
-  
-  $( "#collaborations" ).click(function(){
-    $("#prosper-canada").removeClass("attibutes__options-bar__option--active");
-    $("#collaborations").addClass("attibutes__options-bar__option--active");
-    $("#non-profit-boards").removeClass("attibutes__options-bar__option--active");
-  
-    $("#prosper-canada-content").hide();
-    $("#collaborations-content").show();
-    $("#non-profit-boards-content").hide();
-
-    $("#attibutes__title").val("collaborations");
+    });
     
+  });
+  
+  $(".attibutes__options-bar__option").on("click", function(){
+
+    var idClick = $(this).attr("id");
+    $("#" + idClick ).addClass("attibutes__options-bar__option--active");
+    $("#" + idClick + "-content").show();
+
+    $('.attibutes__options-bar').children('a').each(function () {
+      
+      var idElement = $(this).attr('id');
+      
+      if(idElement !== idClick){
+        $("#" + idElement ).removeClass("attibutes__options-bar__option--active");
+        $("#" + idElement + "-content").hide();
+
+      }
+
+      
+    });
+
     return false;
+
   });
 
-  $( "#non-profit-boards" ).click(function(){
-    $("#prosper-canada").removeClass("attibutes__options-bar__option--active");
-    $("#collaborations").removeClass("attibutes__options-bar__option--active");
-    $("#non-profit-boards").addClass("attibutes__options-bar__option--active");
-  
-    $("#prosper-canada-content").hide();
-    $("#collaborations-content").hide();
-    $("#non-profit-boards-content").show();
-
-    $("#attibutes__title").val("collaborations");
-
-    return false;
-
-  });
-
-  
   //Hide to load page
-  $("#prosper-canada-content").show();
-  $("#collaborations-content").hide();
-  $("#non-profit-boards-content").hide();
-  
+  var elements = 0;
+  $('.attibutes__options-bar').children('a').each(function () {
+
+    var idElement = $(this).attr('id');
+    if(elements > 0){
+      $("#" + idElement ).removeClass("attibutes__options-bar__option--active");
+      $("#" + idElement + "-content").hide();
+    }
+
+    elements++;
+  });
 
   jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up"><i class="fa fa-angle-up" aria-hidden="true"></i></div><div class="quantity-button quantity-down"><i class="fa fa-angle-down" aria-hidden="true"></i></div></div>').insertAfter('.quantity input');
   jQuery('.quantity').each(function() {
